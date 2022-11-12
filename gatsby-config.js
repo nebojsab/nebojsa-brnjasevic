@@ -3,8 +3,9 @@
  */
 module.exports = {
   siteMetadata: {
+    pathPrefix: "/nebojsa-brnjasevic",
     title: `Nebojsa Brnjasevic`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.nebojsa-brnjasevic.com`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
